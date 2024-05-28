@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f2ea02;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes colorChange {
+  0% {
+    color: blue;
+  }
+  33% {
+    color: red;
+  }
+  66% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+h1 {
+  text-align: center;
+  animation: colorChange 5s infinite; /* Change the duration (5s) as needed */
+}
