@@ -41,3 +41,9 @@ h1 {
   text-align: center;
   animation: colorChange 5s infinite; /* Change the duration (5s) as needed */
 }
+
+img {
+  width:50%;
+  display: block;
+  margin: 0 auto;
+}
