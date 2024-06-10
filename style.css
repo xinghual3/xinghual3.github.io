@@ -18,6 +18,7 @@ h2 {
   color: black;
 }
 
+
 html {
   height: 100%;
   width: 100%;
@@ -47,3 +48,11 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+a {
+  color: darkblue; 
+  display: block;
+  margin: 0 auto;
+  text-align: center; /* Center the text within the <a> element */
+}
+
